@@ -8,6 +8,8 @@ client = OpenAI()
 
 response = client.responses.create(
     model="gpt-4.1",
+    temperature=1,
+    max_output_tokens=100,
     instructions="Talk like a pirate.",
     input="Are semicolons optional in JavaScript?"
 )
