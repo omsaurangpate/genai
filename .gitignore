@@ -6,3 +6,6 @@ venv
 
 # pdf file
 04_RAG/DBMS_Notes.pdf
+
+# Docker File
+04_RAG/docker-compose.yml
